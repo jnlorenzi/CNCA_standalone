@@ -1,0 +1,5 @@
+strategy=auto
+gapopeningpenalty=1.53
+offsetvalue=0
+scorematrix_nt=kimura 200
+scorematrix_aa=bl 62
