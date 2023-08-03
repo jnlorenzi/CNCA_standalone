@@ -58,7 +58,7 @@ def main():
 
     # copy final file to root of the working directory
     for res_file in os.listdir(f'{working_dir}/mafft/'):
-        if os.path.splitext(res_file)[1] == ".nexus" or not os.path.splitext(res_file)[1] == '.fasta':
+        if os.path.splitext(res_file)[1] == ".nexus" or os.path.splitext(res_file)[1] == '.fasta':
             shutil.copy(f'{working_dir}/mafft/{res_file}', working_dir)
 
 
