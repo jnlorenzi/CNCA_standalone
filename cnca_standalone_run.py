@@ -46,8 +46,7 @@ def main():
     if count_gbk_file == 0:
         sys.exit(f'No genbank file (.gbk) in the given directory: "{gbk_path}"')
 
-    base_path = os.path.dirname(__file__)
-
+    base_path = os.path.dirname(os.path.abspath(__file__))
     # copy mafft parameter file to the working directory
     shutil.copy(f'{base_path}/parameters.csv', working_dir)
 
@@ -61,6 +60,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-# python3 cnca_standalone_run.py -i /mnt/c/Users/jean-/OneDrive/Documents/SARS-cov2/CNCA_standalone/tmp/run_1/genome -w /mnt/c/Users/jean-/OneDrive/Documents/SARS-cov2/CNCA_standalone/tmp/run_3
-# /mnt/c/Users/jean-/OneDrive/Documents/SARS-cov2/CNCA_standalone/tmp/run_1/genome
-# /mnt/c/Users/jean-/OneDrive/Documents/SARS-cov2/CNCA_standalone/tmp/run_3
