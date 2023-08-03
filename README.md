@@ -46,8 +46,7 @@ R packages should install autonomously, if there is any troubleshooting during t
 
 - MAFFT within the environment is required (https://mafft.cbrc.jp/alignment/software/linux.html).
 
-## Run command
-To run the pipeline
+## Basic run command
 
 ``` shell
 python3 cnca_standalone_run.py -i [path_to_gbk_files] -w [output directory]
