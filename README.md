@@ -1,8 +1,5 @@
 # CNCA Standalone
  
-MANUAL
-
-
 CNCA aligns multiple small, closely related annotated genomes (<50kb, typically virus) using information from protein alignments.
 
 
