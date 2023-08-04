@@ -39,13 +39,6 @@ option_list = list(
 opt_parser = OptionParser(option_list=option_list);
 opt = parse_args(opt_parser);
 
-# align_path = "C:/Users/jean-/OneDrive/Documents/SARS-cov2/CNCA_standalone/tmp/run_2/mafft/"
-# vers = "nuc"
-# vers_aa = "aa"
-# method = "mafft"
-
-###
-
 align_path = opt$align_path
 vers = opt$version_nuc
 vers_aa = opt$version_aa
