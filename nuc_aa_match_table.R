@@ -74,12 +74,6 @@ option_list = list(
 opt_parser = OptionParser(option_list=option_list);
 opt = parse_args(opt_parser);
 
-# align_path = "C:/MAMP/htdocs/cnca/html/tmp/CNCA_1551705260/mafft/"
-# vers = "nuc"
-# vers_aa = "aa"
-# json_path = "C:/MAMP/htdocs/cnca/html/tmp/CNCA_1551705260/genome/"
-# method = "mafft"
-
 ###
 
 align_path = opt$align_path
